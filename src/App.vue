@@ -31,33 +31,33 @@ export default {
 }
 </script>
 
-<style>
-.page{
+<style lang="scss">
+.page {
   height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   background: #EAEBEC;
-}
-.page>main{
-  min-width: 1024px;
-  max-width: 1440px;
-  margin:0;
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
-  padding:0 16px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  width:100%;
-  align-self: center;
-}
-#resumeEditor{
-  width:35%;
-  background:#444;
-}
-#resumePreview{
-  flex-grow: 1;
-  margin-left: 16px;
-  background:#777;
+  >main {
+    min-width: 1024px;
+    max-width: 1440px;
+    margin: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    align-self: center;
+    >#resumeEditor {
+      width: 35%;
+      background: #444;
+    }
+    >#resumePreview {
+      flex-grow: 1;
+      margin-left: 16px;
+      background: #777;
+    }
+  }
 }
 </style>
